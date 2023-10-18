@@ -11,6 +11,8 @@
 		023AFAE12ADF5CE10060A0D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023AFAE02ADF5CE10060A0D3 /* ContentView.swift */; };
 		023AFAE32ADF5CE20060A0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023AFAE22ADF5CE20060A0D3 /* Assets.xcassets */; };
 		023AFAE62ADF5CE20060A0D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023AFAE52ADF5CE20060A0D3 /* Preview Assets.xcassets */; };
+		023AFAED2ADF6D070060A0D3 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023AFAEC2ADF6D070060A0D3 /* ExchangeInfo.swift */; };
+		023AFAEF2ADF6FC10060A0D3 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023AFAEE2ADF6FC10060A0D3 /* ExchangeRate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		023AFAE02ADF5CE10060A0D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023AFAE22ADF5CE20060A0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023AFAE52ADF5CE20060A0D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		023AFAEC2ADF6D070060A0D3 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		023AFAEE2ADF6FC10060A0D3 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				023AFADE2ADF5CE10060A0D3 /* LTRConverterApp.swift */,
 				023AFAE02ADF5CE10060A0D3 /* ContentView.swift */,
+				023AFAEC2ADF6D070060A0D3 /* ExchangeInfo.swift */,
+				023AFAEE2ADF6FC10060A0D3 /* ExchangeRate.swift */,
 				023AFAE22ADF5CE20060A0D3 /* Assets.xcassets */,
 				023AFAE42ADF5CE20060A0D3 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023AFAEF2ADF6FC10060A0D3 /* ExchangeRate.swift in Sources */,
+				023AFAED2ADF6D070060A0D3 /* ExchangeInfo.swift in Sources */,
 				023AFAE12ADF5CE10060A0D3 /* ContentView.swift in Sources */,
 				023AFADF2ADF5CE10060A0D3 /* LTRConverterApp.swift in Sources */,
 			);
